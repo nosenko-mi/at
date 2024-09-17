@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mtrx": "^0.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  }
+}
