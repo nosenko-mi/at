@@ -22,6 +22,9 @@ describe("Matrix methods", ()=>{
             const expected = new Mtrx([[90, 96, 102], [216, 231, 246], [342, 366, 390]]) 
             assert.deepEqual(actual, expected)
         })
+        it("Multiplying wrong size matricies should throw a TypeError", ()=>{
+            expect(()=> {Mtrx.mul(m2x2, m3x3b)}).to.throw(TypeError)
+        })
     })
 
 
